@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyPortfolio</title>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <!-- bootstrap v5 -->
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css" />
+    <!-- animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- owlcarousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- custom -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar fixed-top shadow p-3 mb-5">
+            <div class="container">
+                <a class="navbar-brand" href="#"><span>My</span>portfolio</a>
+                <div class="dropdown">
+                    <button class="btn btn-dark navdropdown-border" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#home">Home</a></li>
+                        <li><a class="dropdown-item" href="#about">About</a></li>
+                        <li><a class="dropdown-item" href="#project">Projects</a></li>
+                        <li><a class="dropdown-item" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section id="home">
+            <div class="home position-relative">
+                <div class="banner"></div>
+                <div class="position-absolute top-50 start-50 translate-middle">
+                    <h1 class="fs-1"> Hello , I'm Ben Smith.</h1>
+                    <h2 class="fs-1 text-gradient mb-3">No one is perfect but I can be better.</h2>
+                    <a href="#about" class="btn btn-header"> Learn more </a>
+                </div>
+                <div class="down-arrow position-absolute bottom-0 start-50 translate-middle">
+                    <a href="#about" class="btn-down-arrow"><i class="fa-solid fa-angles-down"></i></a>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section id="about">
+            <div class="container">
+                <div class="row gy-4">
+                    <div class="col-md-6" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="profile-container text-center">
+                            <img src="image/about/myprofile.jpg" class="img-fluid profile-pic" alt="my_profile">
+                        </div>
+                    </div>
+                    <div class="col-md-6" data-aos="fade-up" data-aos-duration="1000">
+                        <h2 class="h2 main-title mb-5"> About Me </h2>
+                        <p class="mb-4 text-light">
+                            Junior Web Developer with <span class="site-color"><b>1 year of experience</b></span> able to build web applications from the ground up - information gathering, planning, design, development, testing and delivery and maintenance.
+                            Extremely passionate towards <span class="site-color"><b> software architecture and design</b></span> combined with sensitivity to serve the needs of the business balanced with the delivery of high quality solutions.
+                        </p>
+                        <h2 class="h2 main-title mb-4"> Skills </h2>
+                        <p class="mb-4 text-light">
+                            HTML 5, CSS 3, Bootstrap, Javascript, Jquery, PHP, SQL, Laravel
+                        </p>
+                        <h2 class="h2 main-title mb-4"> Description </h2>
+                        <p class="text-light">
+                            Working as a Junior Web Developer and participating in <span class="site-color"><b>coding, testing, debugging new applications and website</b></span> with the team of designers, developers, and content creators to create digital
+                            tools.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="project">
+            <div class="container text-center">
+                <h1 class="h1 main-title mb-3 text-center mb-5"> My Projects </h1>
+                <div class="row gy-5">
+                    <div class="col-md-4" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="project-img">
+                            <img src="image/project/project-1.jpg" alt="">
+                            <div class="project-content">
+                                <div class="position-absolute top-50 start-50 translate-middle">
+                                    <h1 class="mb-3"> Educare</h1>
+                                    <a href="#" class="btn project-btn"> Preview </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="project-img">
+                            <img src="image/project/project-2.jpg" alt="">
+                            <div class="project-content">
+                                <div class="position-absolute top-50 start-50 translate-middle">
+                                    <h1 class="mb-3"> FoodDeli</h1>
+                                    <a href="#" class="btn project-btn"> Preview </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="project-img">
+                            <img src="image/project/project-3.jpg" alt="">
+                            <div class="project-content">
+                                <div class="position-absolute top-50 start-50 translate-middle">
+                                    <h1 class="mb-3"> WorldTour</h1>
+                                    <a href="#" class="btn project-btn"> Preview </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="project-img">
+                            <img src="image/project/project-4.jpg" alt="">
+                            <div class="project-content">
+                                <div class="position-absolute top-50 start-50 translate-middle">
+                                    <h1 class="mb-3"> Shoppy</h1>
+                                    <a href="#" class="btn project-btn"> Preview </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="project-img">
+                            <img src="image/project/project-5.jpg" alt="">
+                            <div class="project-content">
+                                <div class="position-absolute top-50 start-50 translate-middle">
+                                    <h1 class="mb-3"> CodeSchool</h1>
+                                    <a href="#" class="btn project-btn"> Preview </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="project-img">
+                            <img src="image/project/project-6.jpg" alt="">
+                            <div class="project-content">
+                                <div class="position-absolute top-50 start-50 translate-middle">
+                                    <h1 class="mb-3"> OmiFood</h1>
+                                    <a href="#" class="btn project-btn"> Preview </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container text-center">
+                <h1 class="h1 main-title mb-5 text-center"> Contact Me </h1>
+                <div class="row text-start" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                    <div class="col-md-6 offset-md-3">
+                        <form action="">
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Your Name : </label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="JohnDoe">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Email address : </label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Subject : </label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Subject ...">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Message : </label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="..."></textarea>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2022 <span class="secondary-text"> Hein Htet Soe </span> <br>
+            <a href="mailto:hege@example.com" class="link" style="text-decoration: none;">heinhtetsoe1901@gmail.com</a></p>
+    </footer>
+    <div class="up">
+        <button id="btn-up" class="btn btn-dark btn-up" onclick="topFunction()">
+            <i class="fa-solid fa-angle-up"></i>
+        </button>
+    </div>
+    <!-- bootstrap v5 -->
+    <script src="bootstrap/bootstrap.min.js"></script>
+    <!-- jquery -->
+    <script src="js/jquery.js"></script>
+    <!-- owlcarousel -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- custom -->
+    <script src="js/script.js"></script>
+    <!-- Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
